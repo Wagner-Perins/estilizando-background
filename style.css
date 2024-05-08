@@ -1,0 +1,43 @@
+p{
+    color: rgb(250, 100, 20);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bg{
+    background-color: rgb(80, 500, 200);
+    background-image: url(./gatos/gato4.webp);
+}
+
+.bg-image{
+    width: 500px;
+    height: 300px;
+}
+
+.bg-repeat{
+    background-repeat: no-repeat; 
+    /*repeat-y = repeate verticalmente. repeat-x = repete orizontalmente.*/
+    height: 540px;
+}
+
+.bg-size-cover{
+    background-size: cover;
+    height: 540px;
+}
+
+.bg-fixed{
+    background-attachment: fixed;
+    height: 540px;
+}
+
+.bg-position{
+    background-position: bottom right ;
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+/*.bg-position{
+    background: #000 url(./gatos/gato4.webp) no-repeat top right;
+    height: 540px;
+}
+Para fazer uma versão curta;*/
